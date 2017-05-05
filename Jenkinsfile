@@ -67,6 +67,7 @@ pipeline {
       steps {
         echo 'Opening URL: '
         sleep 5
+        libraryResource 'http://localhost:6080/ELibrary-Dev/'
       }
     }
   }
