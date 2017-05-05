@@ -67,7 +67,7 @@ pipeline {
       steps {
         echo 'Opening URL: '
         sleep 5
-        sh 'http://www.google.com'
+        bat 'start \'http://10.248.69.137:8080/job/ELibrary-dev/\''
       }
     }
   }
