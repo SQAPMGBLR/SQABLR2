@@ -54,7 +54,7 @@ pipeline {
     }
     stage('Navigate to Application') {
       steps {
-        echo 'Opening URL: " http://10.248.69.137:6080/ELibrary-Dev"'
+        echo 'Opening URL: '
       }
     }
   }
