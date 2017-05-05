@@ -67,7 +67,7 @@ pipeline {
       steps {
         echo 'Opening URL: '
         sleep 5
-        sh '\'./ELibrary-Dev\''
+        sh 'xdg-open http://www.google.com'
       }
     }
   }
